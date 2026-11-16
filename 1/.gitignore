@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+
+# Data and SQLite
+*.db
+*.sqlite3
+!data/.gitkeep
+
+# ML Models and generated datasets
+ml/saved_models/*.joblib
+ml/saved_models/*.json
+!ml/saved_models/.gitkeep
+data/*.csv
+
+# Logs
+logs/*.log
+*.log
+!logs/.gitkeep
+
+# Environment variables
+.env
+
+# Streamlit
+.streamlit/
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
